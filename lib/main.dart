@@ -63,8 +63,8 @@ class _MyAppState extends State<MyApp> {
                              fontSize: 20.0,
                              fontFamily: 'SourceSansPro',
                            ),
-                         ),
                        ),
+                         ),
                      ),
                    ),
                        FlatButton(

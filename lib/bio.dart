@@ -105,6 +105,24 @@ class Info extends StatelessWidget {
                   ),
                 ),
               ),
+              const Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(
+                    vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.account_circle,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'Dakkili gowthami',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontFamily: 'SourceSansPro',
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
